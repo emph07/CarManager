@@ -5,7 +5,12 @@
   <groupId>pl.afossa.carmanager</groupId>
   <artifactId>car-manager</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+    <modules>
+        <module>carmanager-web</module>
+        <module>carmanager-ui</module>
+        <module>carmanager-domain</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>car-manager</name>
   <url>http://maven.apache.org</url>
