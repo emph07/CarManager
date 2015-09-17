@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CarManager.iml" filepath="$PROJECT_DIR$/CarManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carmanager.iml" filepath="$PROJECT_DIR$/carmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carmanager-domain/carmanager-domain.iml" filepath="$PROJECT_DIR$/carmanager-domain/carmanager-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carmanager-ui/carmanager-ui.iml" filepath="$PROJECT_DIR$/carmanager-ui/carmanager-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carmanager-web/carmanager-web.iml" filepath="$PROJECT_DIR$/carmanager-web/carmanager-web.iml" />
     </modules>
   </component>
 </project>
