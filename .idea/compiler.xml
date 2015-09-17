@@ -24,7 +24,16 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="CarManager" />
+        <module name="carmanager-domain" />
+        <module name="carmanager-ui" />
+        <module name="carmanager-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="carmanager" target="1.6" />
+      <module name="carmanager-domain" target="1.6" />
+      <module name="carmanager-ui" target="1.6" />
+      <module name="carmanager-web" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
