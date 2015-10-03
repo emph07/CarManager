@@ -9,6 +9,14 @@
     <schema name="CAR_ADMIN" catalog=""/>
     <schema name="SYS" catalog=""/>
     <schema name="SYSTEM" catalog=""/>
+    <table name="CAR" schema="CAR_ADMIN" catalog="" type="TABLE">
+      <column name="ID" sqlType="NUMBER" precision="19" scale="0" nullable="false" jdbcType="3"/>
+      <column name="BRAND" sqlType="VARCHAR2" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ENGINE_CAPACITY" sqlType="NUMBER" precision="10" scale="0" nullable="false" jdbcType="3"/>
+      <column name="MODEL" sqlType="VARCHAR2" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SYS_C007519" columns="ID"/>
+    </table>
+    <table name="HIBERNATE_SEQUENCE" schema="CAR_ADMIN" catalog="" type="SEQUENCE"/>
     <table name="ALL_ALL_TABLES" schema="SYS" catalog="" type="VIEW">
       <column name="OWNER" sqlType="VARCHAR2" precision="30" scale="0" nullable="true" jdbcType="12"/>
       <column name="TABLE_NAME" sqlType="VARCHAR2" precision="30" scale="0" nullable="true" jdbcType="12"/>

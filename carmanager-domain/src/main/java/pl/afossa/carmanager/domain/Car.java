@@ -1,12 +1,11 @@
 package pl.afossa.carmanager.domain;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- * Created by emph on 2015-10-01.
- */
+@Entity
 public class Car {
 
     @Id

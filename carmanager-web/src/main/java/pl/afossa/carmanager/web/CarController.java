@@ -1,15 +1,13 @@
-package pl.afossa.carmanager.controller;
+package pl.afossa.carmanager.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import pl.afossa.carmanager.domain.Car;
 import pl.afossa.carmanager.domain.CarRepository;
 
-@Controller
-@EnableAutoConfiguration
+@RestController
 public class CarController {
 
     private final CarRepository carRepository;
